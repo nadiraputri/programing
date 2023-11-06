@@ -26,13 +26,13 @@ const App = () => {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: activeMenu == 'Home' ? '#1d5eff' : '#FFFFFF',
+            backgroundColor: activeMenu == 'Home' ? '#8B4513' : '#FFFFFF',
             elevation: activeMenu == 'Home' ? 2 : 0,
             paddingVertical: 12,
             borderRadius: 9,
           }}
           onPress={() => setActiveMenu('Home')}>
-          <Text style={{color: activeMenu == 'Home' ? '#FFFFFF' : '#9ea3b0'}}>
+          <Text style={{color: activeMenu == 'Home' ? '#FFFFFF' : '#DAA520'}}>
             Home
           </Text>
         </TouchableOpacity>
@@ -42,13 +42,13 @@ const App = () => {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: activeMenu == 'Foto' ? '#1d5eff' : '#FFFFFF',
+            backgroundColor: activeMenu == 'Foto' ? '#8B4513' : '#FFFFFF',
             elevation: activeMenu == 'Foto' ? 2 : 0,
             paddingVertical: 12,
             borderRadius: 9,
           }}
           onPress={() => setActiveMenu('Foto')}>
-          <Text style={{color: activeMenu == 'Foto' ? '#FFFFFF' : '#9ea3b0'}}>
+          <Text style={{color: activeMenu == 'Foto' ? '#FFFFFF' : '#DAA520'}}>
             Foto
           </Text>
         </TouchableOpacity>
@@ -58,14 +58,14 @@ const App = () => {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: activeMenu == 'Profile' ? '#1d5eff' : '#FFFFFF',
+            backgroundColor: activeMenu == 'Profile' ? '#8B4513' : '#FFFFFF',
             elevation: activeMenu == 'Profile' ? 2 : 0,
             paddingVertical: 12,
             borderRadius: 9,
           }}
           onPress={() => setActiveMenu('Profile')}>
           <Text
-            style={{color: activeMenu == 'Profile' ? '#FFFFFF' : '#9ea3b0'}}>
+            style={{color: activeMenu == 'Profile' ? '#FFFFFF' : '#DAA520'}}>
             Profile
           </Text>
         </TouchableOpacity>
