@@ -21,17 +21,16 @@ export default class Login extends Component {
         <Text style={{fontSize: 25, color: '#000000'}}> Login Terlebih Dahulu </Text>
         <Input
           placeholder={'isi nama'}
-          onChangeText={isi => this.setState({mana: isi})} 
+          onChangeText={isi => this.setState({mana: isi, color: 'Black'})} 
         />
         <Input 
           placeholder={'Isi Sandi Anda'}
-          InputMode={'numeric'}
-          onChangeText={isi => this.setState({nope: isi})}
+          onChangeText={isi => this.setState({Sandi: isi, Color: 'Black'})}
         />
         <Input
           placeholder={'Isi no hp'}
           InputMode={'numeric'}
-          onChangeText={isi => this.setState({nope: isi})}
+          onChangeText={isi => this.setState({nope: isi, color: 'Black'})}
         />
         <Text style={{fontSize: 20, color: '#000000'}}>Nama : {nama}</Text>
         <Text style={{fontSize: 20, color: '#000000'}}>Sandi : {Sandi}</Text>
@@ -47,6 +46,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#E0FFFF',
     flex: 1,
     paddingHorizontal: 5,
-    paddingVertical: 15,
   },
 });

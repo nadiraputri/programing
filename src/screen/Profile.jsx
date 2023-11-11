@@ -23,7 +23,7 @@ const App = () => {
         <View style={{justifyContent: 'center', alignItems: 'center'}}>
           <Image
             source={{
-              uri: 'https://www.istockphoto.com/id/vektor/wanita-muda-mencoba-mantel-ramah-lingkungan-di-toko-pakaian-mode-ilustrasi-konsep-gm1223209091-359228182?phrase=free+butik',
+              uri: 'https://www.istockphoto.com/id/foto/eksterior-toko-pakaian-dengan-sepatu-dan-aksesoris-lain-yang-ditampilkan-dalam-gm1311106995-400304438',
             }}
             style={{
               width: 100,
