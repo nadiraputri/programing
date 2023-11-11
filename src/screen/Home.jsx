@@ -23,7 +23,7 @@ const App = () => {
         onPress={() => setShowMenu(!showMenu)}>
       <View style={{marginHorizontal: 13}}>
       <Text style={{fontSize: 20, color: '#000000'}}>
-      <Icon name="chevron-circle-down" size={20} color="#ADD8E6" />Daftar Menu</Text>
+      <Icon name="chevron-circle-down" size={20} color="#ADD8E6" />Menyediakan</Text>
       </View>
       </TouchableOpacity>
       {showMenu && (

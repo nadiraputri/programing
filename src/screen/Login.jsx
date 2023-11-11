@@ -15,27 +15,27 @@ export default class Login extends Component {
 
   render() {
     // destrukturisasi
-    const {nama, alamat, nope} = this.state;
+    const {nama, Sandi, nope} = this.state;
     return (
-      <View style={styles.box}>
-        <Text> Login terlebih dahulu </Text>
+      <View style={styles.box }>
+        <Text style={{fontSize: 25, color: '#000000'}}> Login Terlebih Dahulu </Text>
         <Input
           placeholder={'isi nama'}
-          onChangeText={isi => this.setState({mana: isi})}
+          onChangeText={isi => this.setState({mana: isi})} 
         />
         <Input 
-          placeholder={'Isi alamat'} 
-          onChangeText={isi => this.setState({mana: isi})}
+          placeholder={'Isi Sandi Anda'}
+          InputMode={'numeric'}
+          onChangeText={isi => this.setState({nope: isi})}
         />
         <Input
           placeholder={'Isi no hp'}
           InputMode={'numeric'}
           onChangeText={isi => this.setState({nope: isi})}
         />
-        <Text>
-          Nama: {nama}</Text>
-        <Text>Alamat: {alamat}</Text>
-        <Text>No HP: {nope}</Text>
+        <Text style={{fontSize: 20, color: '#000000'}}>Nama : {nama}</Text>
+        <Text style={{fontSize: 20, color: '#000000'}}>Sandi : {Sandi}</Text>
+        <Text style={{fontSize: 20, color: '#000000'}}>No HP : {nope}</Text>
       </View>
     );
   }
@@ -44,7 +44,9 @@ export default class Login extends Component {
 const styles = StyleSheet.create({
   box: {
     padding: 10,
-    Backgroundcolor: 'Black',
+    backgroundColor: '#E0FFFF',
     flex: 1,
+    paddingHorizontal: 5,
+    paddingVertical: 15,
   },
 });

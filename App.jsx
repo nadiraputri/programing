@@ -101,18 +101,18 @@ const App = () => {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: activeMenu == 'Notification' ? '#E0FFFF' : '#778899',
+            backgroundColor: activeMenu == 'Bayar' ? '#E0FFFF' : '#778899',
             elevation: activeMenu == 'Bayar' ? 2 : 0,
             paddingVertical: 12,
             borderRadius: 80,
           }}
         >
-          <Icon name="money-check" size={22} color="#000000" />
-          <Text
-            style={{ color: activeMenu == 'Bayar' ? '#000000' : '#000000' }}>
+          <Icon name="user" size={22} color="#000000" />
+          <Text style={{ color: activeMenu == 'Bayar' ? '#000000' : '#000000' }}>
             Bayar
           </Text>
         </TouchableOpacity>
+
         <TouchableOpacity
           onPress={() => setActiveMenu('Profile')}
           style={{
