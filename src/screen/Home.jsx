@@ -85,7 +85,7 @@ const App = () => {
           paddingHorizontal: 20,
           borderRadius: 6,
           flexDirection: 'row',
-          borderWidth: seleksi == 2 ? 1 : 0,
+          borderWidth: seleksi == 2 ? 2 : 0,
           borderColor: seleksi == 2 ? '#696969' : 'transparent',
         }}
         onPress={() => setSeleksi(2)}>
@@ -161,7 +161,7 @@ const App = () => {
           paddingHorizontal: 20,
           borderRadius: 6,
           flexDirection: 'row',
-          borderWidth: seleksi == 4 ? 3 : 0,
+          borderWidth: seleksi == 4 ? 2 : 0,
           borderColor: seleksi == 4 ? '#696969' : 'transparent',
         }}
         onPress={() => setSeleksi(4)}>
@@ -198,7 +198,7 @@ const App = () => {
           paddingHorizontal: 20,
           borderRadius: 6,
           flexDirection: 'row',
-          borderWidth: seleksi == 5 ? 4 : 0,
+          borderWidth: seleksi == 5 ? 2 : 0,
           borderColor: seleksi == 5 ? '#696969' : 'transparent',
         }}
         onPress={() => setSeleksi(5)}>
@@ -236,7 +236,7 @@ const App = () => {
           paddingHorizontal: 20,
           borderRadius: 6,
           flexDirection: 'row',
-          borderWidth: seleksi == 6 ? 5 : 0,
+          borderWidth: seleksi == 6 ? 2 : 0,
           borderColor: seleksi == 6 ? '#696969' : 'transparent',
         }}
         onPress={() => setSeleksi(6)}>
@@ -273,7 +273,7 @@ const App = () => {
           paddingHorizontal: 20,
           borderRadius: 6,
           flexDirection: 'row',
-          borderWidth: seleksi == 8 ? 7 : 0,
+          borderWidth: seleksi == 8 ? 2 : 0,
           borderColor: seleksi == 8 ? '#696969' : 'transparent',
         }}
         onPress={() => setSeleksi(8)}>
